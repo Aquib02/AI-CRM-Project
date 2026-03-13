@@ -1,0 +1,16 @@
+.main-layout{
+  display:flex;
+  gap:30px;
+  padding:30px;
+  background:#f3f5f7;
+
+  align-items: flex-start;
+}
+
+.left-panel{
+  flex:2;
+}
+
+.right-panel{
+  flex:1;
+}
