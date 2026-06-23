@@ -107,3 +107,26 @@ textarea{
 .ai-box li{
   margin-bottom:5px;
 }
+
+@media (max-width:768px){
+
+    .container{
+        padding:10px;
+    }
+
+    .card{
+        padding:15px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    input,
+    select,
+    textarea,
+    button{
+        width:100%;
+        box-sizing:border-box;
+    }
+}
