@@ -22,7 +22,7 @@ function InteractionForm() {
       follow_up_actions: followUp
     };
 
-    const res = await fetch("http://127.0.0.1:8000/log-interaction", {
+    const res = await fetch("https://ai-crm-project.onrender.com/log-interaction", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
