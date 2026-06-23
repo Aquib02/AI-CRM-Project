@@ -18,7 +18,7 @@ function ChatBox() {
 
     try {
 
-      const res = await fetch("http://ai-crm-project.onrender.com/ai-chat", {
+      const res = await fetch("https://ai-crm-project.onrender.com/ai-chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
